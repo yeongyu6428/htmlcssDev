@@ -7,15 +7,18 @@ a {
     text-decoration: none;
   }
 
+a:visited {
+    color : black;
+}
 body {
     display: flex;
     justify-content: center;
 }
 /* 전체 페이지에 여백주기  */
 .pageAll {
-    width: 80vw;
+    width: 50vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 li {
@@ -31,19 +34,27 @@ li {
 }
 
 .logo{
-    border: 1px solid black;
+}
+
+.loginrow {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.loginBtn {
+    border: #e2e2e2 solid 1px;
+    padding: 5px 3px;
 }
 
 .row {
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 
 .navRow {
     display: flex;
     flex-direction: row;
-    border:  black solid 1px;
 
 }
 
@@ -53,6 +64,63 @@ li {
     justify-content: center;
     align-items: center;
     white-space : nowrap;
-    border:  black solid 1px;
 }
 
+.bgColor {
+    background-color: aquamarine;
+    width: 100vw;
+    height: 50vh;
+    transform: translate(-25%, -3%);
+}
+
+.pop {
+    justify-content: center;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px;
+}
+
+.m2 {
+    background-color: #FFB81C;
+}
+
+.pop li {
+    padding: 20px;
+}
+
+.love {
+    display: grid; 
+    grid-template-columns: 13% 37% 13% 37%;
+}
+
+.loveSec {
+    display: flex;
+    flex-direction: column;
+}
+
+.loveSec div {
+    margin: 5px 0px;
+}
+
+.loveFour div {
+    margin: 5px 0px;
+} 
+
+.aboutLink {
+    font-size: 12px;
+    color: #e2e2e2;
+    margin-top: 3px;
+}
+
+.grid33 {
+    display: grid; 
+    grid-template-columns: 33% 33% 33%;
+} 
+
+.grid50 {
+    height: 252px;
+    display: grid; 
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+}
